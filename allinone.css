@@ -1,0 +1,545 @@
+*{
+    margin: 0;
+}
+header{
+    height: 60px;
+    width: 100%;
+    background-color: #0F1111;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #F1F1F1;
+    position: fixed;
+    float: none;
+    z-index: 2;
+}
+header img{
+    width: 80px;
+    margin-top: -5px;
+}
+header .headloc{
+    display: flex;
+    /* height: fit-content; */
+    height: 40px;
+    width: 280px;
+}
+.headloc span{
+    font-size: 20px;
+    position: relative;
+    top: 16px;
+}
+.locname{
+    width: 150px;
+}
+.locname p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;    
+    font-size: 13px;
+    margin: 0;
+}
+.locname h6{
+    font-family: 'Roboto', sans-serif;
+    /* display: flex;
+    margin: 0;
+    padding: 0; */
+    font-size: 15px;
+}
+.flag{
+    display: flex;align-items: center;
+    width: 100px;
+    padding: 10px;
+}
+.flag img{
+    width: 20px;
+}
+.flag h5,a{
+    margin-top: 10px;
+    font-size: 12px;
+}
+.sign-in{
+    width: 250px;
+}
+.sign-in p{
+    font-size: 13px;
+    margin: 0;
+}
+.sign-in h5{
+    font-size: 15px;
+}
+.return{
+    width: 170px;
+}
+.return p{
+    font-size: 13px;
+    margin: 0;
+}
+.return h5{
+    font-size: 15px;
+}
+.cart{
+    width: 150px;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+.cart h5{
+    font-size: 15px;
+}
+
+header div:hover{
+    color: white;
+    border: 1px white solid;
+    border-radius: 5px;
+}
+.title{
+    height: 40px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-evenly;
+    background-color:#0f1111ee;
+    position:relative;
+    top: 60px;
+}
+.title a{
+text-decoration: none;
+font-size: 15px;
+padding: 5px 30px;
+color: gainsboro;
+margin-top: 0;
+}
+.title a:hover{
+    color: white;
+    border: 1px white solid;
+    border-radius: 5px;
+}
+.home{
+    height:100vh;
+    width: 100%;
+    margin-top: 60px;
+    z-index: -10;
+}
+.carousel-control-prev-icon{
+    position: absolute;
+    top:100px;
+}
+.carousel-control-next-icon{
+    position: absolute;
+    top:100px;
+}
+.productwrapper{
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    top: -300px;
+}
+.productwrapper h5{
+    padding-left: 5px;
+}
+.television{
+    height: 400px;
+    width: 300px;
+    background-color: white;
+    /* border: solid; */
+    margin-top: 20px; 
+    padding-top: 10px;
+    padding-left: 5px;
+    z-index: 1;
+}
+
+.product-img-container{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.product-img-container div{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.product-img-container img{
+    width: 90%;
+}
+.product-img-container a{
+    text-decoration: none;
+    color: black;
+    margin: 10px;
+    font-size: 14px;
+}
+.mobile{
+    height: 400px;
+    width: 300px;
+    background-color: white;
+    /* border: solid; */
+    margin-top: 20px; 
+    padding-top: 10px;
+    padding-left: 5px;
+    z-index: 1;
+}
+.shoes{
+    height: 400px;
+    width: 300px;
+    background-color: white;
+    /* border: solid; */
+    margin-top: 20px; 
+    padding-top: 10px;
+    padding-left: 5px;
+    z-index: 1;
+}
+.headphone{
+    height: 400px;
+    width: 300px;
+    background-color: white;
+    /* border: solid; */
+    margin-top: 20px; 
+    padding-top: 10px;
+    padding-left: 10px;
+    z-index: 1;
+}
+.headphone div img{
+    height: 270px;
+    width: 100%;
+    padding-right: 15px;
+}
+.headphone a{
+    text-decoration: none;
+    font-size: 14px;
+    margin-left: 10px;
+    display: flex;
+    bottom: 0;
+}
+.home-appliance{
+    height: 400px;
+    width: 300px;
+    background-color: white;
+    /* border: solid; */
+    margin-top: 20px; 
+    padding-top: 10px;
+    padding-left: 5px;
+    /* z-index: 1; */
+}
+.home-appliance div{
+    display: flex;
+    /* flex-direction:column; */
+    /* align-items: center; */
+    justify-content: space-between;
+}
+.home-appliance div:nth-child(4){
+    margin-top: 20px;
+}
+.home-appliance a{
+    text-decoration: none;
+    margin: 8px;
+    font-size: 14px;
+}
+.light{
+    height: 400px;
+    width: 300px;
+    background-color: white;
+    /* border: solid; */
+    margin-top: 20px; 
+    padding-top: 10px;
+    padding-left: 5px;
+}
+.light div{
+    display: flex;
+    flex-wrap: wrap;
+}
+.light div:nth-child(3){
+    margin-top: 20px;
+}
+.light div:nth-child(4){
+    margin-top: 20px;
+}
+.light a{
+    text-decoration: none;
+    margin: 8px;
+    font-size: 14px;
+}
+h3{
+    position: relative;
+    top: 5px;
+    left: 10px;
+}
+.smartwatch{
+    height: 400px;
+    width: 300px;
+    background-color: white;
+    /* border: solid; */
+    margin-top: 20px; 
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.smartwatch div img{
+    height: 280px;
+    width: 100%;
+    padding-right: 18px;
+    margin-left: 5px;
+}
+#sw1{
+    text-decoration: none;
+    font-size: 14px;
+    margin-left: 8px;
+    position: relative;
+    top: 10px;
+}
+.restyle{
+    height: 400px;
+    width: 300px;
+    background-color: white;
+    /* border: solid; */
+    margin-top: 20px; 
+    padding-top: 10px;
+    padding-left: 5px;
+}
+.restyle div:nth-child(1){
+    margin-top: 10px;
+}
+.restyle div:nth-child(2){
+    margin-top: 10px;
+}
+.restyle div:nth-child(4){
+    margin-top: 20px;
+}
+.restyle a{
+    text-decoration: none;
+    margin: 8px;
+    font-size: 14px;
+}
+.mobile-div{
+    height: 250px;
+    width: 1310px;
+    background-color: white;
+    /* border: solid; */
+    position: relative;
+    top: 470px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.mobile-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    position: relative;
+    top: 5px; 
+}
+.accessories-div{
+    height: 300px;
+    width: 1310px;
+    background-color: white;
+    /* border: solid; */
+    position: relative;
+    top: 490px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.accessories-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    position: relative;
+    top: 40px; 
+    left: 25px;
+}
+.accessories-container img{
+    width: 80%;
+}
+.clothes-div{
+    height: 300px;
+    width: 1310px;
+    background-color: white;
+    /* border: solid; */
+    position: relative;
+    top: 510px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.clothes-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+.clothes-container img{
+    width: 70%;
+}
+.home-appliences-div{
+    height: 300px;
+    width: 1310px;
+    background-color: white;
+    /* border: solid; */
+    position: relative;
+    top: 530px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.home-appliences-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    position: relative;
+    top: 50px;
+    left: 20px;
+}
+.home-appliences-container img{
+    width: 90%;
+    padding: 10px;
+}
+.kids-div{
+    height: 300px;
+    width: 1310px;
+    background-color: white;
+    /* border: solid; */
+    position: relative;
+    top: 550px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.kids-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    position: relative;
+    top:20px;
+    left: 20px;
+}
+.kids-container img{
+    width: 90%;
+    padding: 10px;
+}
+.groceries-div{
+    height: 300px;
+    width: 1310px;
+    background-color: white;
+    /* border: solid; */
+    position: relative;
+    top: 570px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.groceries-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    position: relative;
+    top:0;
+    left: 20px;
+}
+.groceries-container img{
+    width: 90%;
+    padding: 20px;
+}
+.medicine-div{
+    height: 300px;
+    width: 1310px;
+    background-color: white;
+    /* border: solid; */
+    position: relative;
+    top: 590px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.medicine-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    position: relative;
+    top:10px;
+    left: 20px;
+}
+.medicine-container img{
+    width: 90%;
+    padding: 20px;
+}
+.fashion-div{
+    height: 300px;
+    width: 1310px;
+    background-color: white;
+    /* border: solid; */
+    position: relative;
+    top: 610px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.fashion-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    position: relative;
+    top:10px;
+    left: 20px;
+}
+.fashion-container img{
+    width: 90%;
+    padding: 20px;
+}
+.footware-div{
+    height: 300px;
+    width: 1310px;
+    background-color: white;
+    /* border: solid; */
+    position: relative;
+    top: 630px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.footwear-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    position: relative;
+    top:15px;
+}
+.footwear-container img{
+    width: 100%;
+    padding: 20px;
+}
+.backtotop{
+    height: 50px;
+    width: 100%;
+    background-color: #0F1111;
+    position: relative;
+    top: 650px;
+}
+.backtotop a{
+    text-decoration: none;
+    font-size: 14px;
+    color: white;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    position: relative;
+    top: 10px;
+}
+.lastpage{
+    height: 400px;
+    width: 100%;
+    background-color: rgb(39, 38, 38);
+    position: relative;
+    top: 650px;
+}
+.lastpage-container{
+    height: 300px;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    top: 50px;
+    left: 22vh;
+    justify-content: space-between;
+}  
+li h6{
+    color: white;
+}
+li{
+    color:rgba(230, 224, 224, 0.842);
+}
